@@ -1,0 +1,6 @@
+---
+- name: Test Ansible Connectivity
+  hosts: all
+  tasks:
+    - name: Ping Hosts
+      ansible.builtin.ping:
